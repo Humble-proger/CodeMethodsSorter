@@ -4,7 +4,7 @@
         {
             "label": "Sort C# Members",
             "type": "shell",
-            "command": "{Путь к файлу}/RoslynMethodSorterComplete",
+            "command": "{Путь к файлу}/CodeMethodSorter",
             "args": [
                 "${file}"
             ],
