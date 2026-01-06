@@ -33,7 +33,7 @@ dotnet publish -c Release -r osx-arm64 --self-contained -p:PublishSingleFile=tru
 
 ```bash
 # Сортировать один файл
-./publish/CodeMethodsSorter --file MyClass.cs
+./publish/CodeMethodsSorter MyClass.cs
 ```
 
 ## 🎮 Интеграция с VS Code
