@@ -49,7 +49,7 @@ dotnet publish -c Release -r osx-arm64 --self-contained -p:PublishSingleFile=tru
         {
             "label": "Sort C# Members",
             "type": "shell",
-            "command": "{Путь к файлу}/RoslynMethodSorterComplete",
+            "command": "{Путь к файлу}/CodeMethodsSorter",
             "args": [
                 "${file}"
             ],
